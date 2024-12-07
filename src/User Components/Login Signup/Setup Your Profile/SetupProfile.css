@@ -1,0 +1,12 @@
+/* Add this CSS */
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  form {
+    width: 50%; /* Set form width to 50% */
+  }
+  

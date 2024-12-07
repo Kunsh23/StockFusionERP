@@ -1,0 +1,40 @@
+{
+    "Dashboard": "डैशबोर्ड",
+    "Settings": "सेटिंग्स",
+    "Purchasing": "खरीदारी",
+"Selling": "बिक्री",
+"Inventory": "सूची",
+"History": "इतिहास",
+
+
+    "Products Purchased (per month)": "प्रति माह खरीदी गई उत्पाद",
+"Purchased": "खरीदी गई",
+"Products Selled (per month)": "प्रति माह बेचे गए उत्पाद",
+"Sold": "बेचे गए",
+"Products Categories": "उत्पाद श्रेणियाँ",
+"Total Purchased vs Total Sold Amount Analysis": "कुल खरीदी गई राशि बनाम कुल बेची गई राशि का विश्लेषण",
+"Item Purchased": "खरीदे गए आइटम",
+    "Total Amount": "कुल राशि",
+    "Items Sold": "बेचे गए आइटम",
+
+    "Purchased Products": "खरीदे गए उत्पाद",
+"Add a purchased item to your inventory": "अपने इन्वेंटरी में खरीदा गया आइटम जोड़ें",
+"Product Name": "उत्पाद का नाम",
+"Product Vendor": "उत्पाद विक्रेता",
+"Category": "श्रेणी",
+"Quantity": "मात्रा",
+"Price": "मूल्य",
+"Add Item": "आइटम जोड़ें",
+
+"Export Stock Data": "स्टॉक डेटा निर्यात करें",
+"Choose a file type to export data ?": "डेटा निर्यात करने के लिए फ़ाइल प्रकार चुनें?",
+
+"Selling Products": "बेचे गए उत्पाद",
+"Sold Item": "बेची गई वस्तुएं",
+"Add an item to your inventory": "अपनी इन्वेंटरी में वस्तु जोड़ें",
+
+"Update an existing item from your inventory": "अपनी इन्वेंटरी से मौजूदा वस्तु को अपडेट करें",
+"Update Item": "वस्तु अपडेट करें",
+"Products History": "उत्पादों का इतिहास"
+
+}

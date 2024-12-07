@@ -1,0 +1,39 @@
+{
+    "Dashboard": "Dashboard",
+    "Settings": "Settings",
+    "Purchasing": "Pruchasing",
+    "Selling": "Selling",
+    "Inventory": "Inventory",
+    "History": "History",
+
+    "Products Purchased (per month)":"Products Purchased (per month)",
+    "Purchased": "Purchased",
+    "Products Selled (per month)": "Products Selled (per month)",
+    "Sold": "Sold",
+    "Products Categories": "Products Categories",
+    "Total Purchased vs Total Sold Amount Analysis": "Total Purchased vs Total Sold Amount Analysis",
+    "Items Purchased": "Item Purchased",
+    "Total Amount": "Total Amount",
+    "Items Sold": "Items Sold",
+
+    "Purchased Products": "Purchaed Products",
+    "Add a purchased item to your inventory": "Add a purchased item to your inventory",
+    "Product Name":"Product Name",
+    "Product Vendor": "Product Vendor",
+    "Category": "Category",
+    "Quantity": "Quantity",
+    "Price": "Price",
+    "Add Item": "Add Item",
+
+    "Export Stock Data": "Export Stock Data",
+    "Choose a file type to export data ?": "Choose a file type to export data ?",
+
+    "Selling Products": "Sold Products",
+    "Sold Item": "Sold Item",
+
+    "Add an item to your inventory": "Add an item to your inventory",
+
+    "Update an existing item from your inventory": "Update an existing item from your inventory",
+    "Update Item": "Update Item",
+    "Products History": "Products History"
+}           

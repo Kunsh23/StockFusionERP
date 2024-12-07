@@ -1,0 +1,120 @@
+/* Login & Signup Page */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn i {
+    vertical-align: text-top;
+}
+
+.btn-outline-custom {
+    color: #31374a;
+    border-color: #ddd;
+}
+
+.btn-outline-custom:hover {
+    color: #31374a;
+    border-color: #eee;
+    background-color: #eee;
+}
+
+.right-side {
+    height: 95%;
+    overflow: hidden;
+}
+
+.right-side form {
+    width: 100%;
+}
+
+.right-side form .input-font {
+    font-size: 14px;
+}
+
+.bg-holder {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./Assets/StockFusion_ERP.svg);
+}
+
+.divider-content-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background-color: #fff;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #999;
+}
+
+.divider {
+    margin: 2rem 0;
+}
+
+.erp-logo {
+    margin-left: 0.5rem;
+    opacity: 0;
+}
+
+.terms {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.language {
+    border: 0.5px solid black;
+}
+
+.language:hover {
+    background: #FF4844;
+    color: #fff;
+    font-weight: 700;
+}
+
+.language .icon {
+    margin-right: 0.7rem;
+    margin-bottom: 0.2rem;
+}
+
+.lang-button {
+    justify-content: center;
+    align-items: center;
+}
+  
+@media screen and (max-width: 980px) {
+    .erp-logo {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .right-side {
+        height: 85%;
+    }
+}

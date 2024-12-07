@@ -1,0 +1,254 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --default-user-icon: url(./Assets/11.svg);
+    --default-sign-icon: url(./Assets/12.svg);
+    --white: #ffffff;
+    --danger-color: #dc3545;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --icon-bg: var(--white);
+    --icon-size: 1.6rem;
+    --image-size: 11.375rem; /* 150px */
+    --border-radius-circle: 50%;
+    --spacing-small: 0.25rem; /* 4px */
+}
+
+.profile {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #e5e5e5;
+    height: 100vh; /* Set a fixed height to enable scrolling */
+}
+
+.profile .popup {
+    color: #dc3545;
+}
+
+.profile-top-page-heading {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 95%;
+    margin-bottom: 1rem;
+    color: #f8f8f8;
+    background-color: #1d1b31;
+    box-shadow: 3px 3px 5px var(--shadow-color); 
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.profile-top-page-heading span {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.profile-edit-btn {
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #f8f8f8;
+    color: #1d1b31;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.profile-edit-btn:hover {
+    color: #dc3545;
+}
+
+.profile-edit-btn i {
+    font-size: 23px;
+}
+
+.profile form {
+    width: 95%; 
+    align-items: flex-start;
+    overflow-y: auto; /* Change to 'auto' for scroll when necessary */
+    padding: 0 1rem 0.3rem 0;
+    height: calc(100% - 4rem); /* Adjust height to fit within the container */
+    border-radius: 1rem;
+}
+
+.input-font {
+    font-size: 12px;
+}
+
+.heading {
+    font-size: 12px;
+}
+
+/* Profile Image Uploader */
+.image-uploader {
+    width: var(--image-size);
+    height: var(--image-size);
+    position: relative;
+    width: 32.33%;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    margin-left: 23.165%;
+}
+
+.image-preview {
+    width: var(--image-size);
+    height: var(--image-size);
+    border-radius: var(--border-radius-circle);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #e3e6e9;
+}
+
+.edit-icon {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.8rem;
+    background-color: var(--icon-bg);
+    border-radius: var(--border-radius-circle);
+    padding: 0.4rem;
+    box-shadow: 2px 2px 5px var(--shadow-color);
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+
+.edit-icon:hover {
+    background-color: #1d1b31;
+    color: #ffffff;
+}
+
+.remove-icon {
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.8rem;
+    background-color: var(--icon-bg);
+    border-radius: var(--border-radius-circle);
+    padding: 0.4rem;
+    box-shadow: 2px 2px 5px var(--shadow-color);
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+
+.remove-icon:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.remove-icon:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+button {
+    background-color: var(--danger-color);
+}
+
+.divider-line {
+    line-height: 0.5rem;
+    margin-top: 0;
+}
+
+.form-heading {
+    font-weight: 700;
+}
+
+.top-2 {
+    margin-top: 1rem;
+}
+
+.forms {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px var(--shadow-color);
+}
+
+.hide-input {
+    opacity: 0;
+}
+
+/* Signature Image Uploader */
+.signature {
+    margin-top: -0.3rem;
+}
+
+.signature-uploader {
+    width: var(--image-size);
+    height: var(--image-size);
+    position: relative;
+    width: 32.33%;
+    align-items: center;
+    justify-content: center;
+}
+
+.signature-uploader label {
+    margin-left: 0;
+    margin-top: 0.1rem;
+}
+
+.signature-uploader .image-preview {
+    width: 26.8rem;
+    height: var(--image-size);
+    border-radius: 0.5rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    border: 1px solid #e3e6e9;
+}
+
+.signature-uploader .edit-icon {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    background-color: var(--icon-bg);
+    border-radius: 15%;
+    padding: 0.4rem;
+    box-shadow: 2px 2px 5px var(--shadow-color);
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+
+.signature-uploader .edit-icon:hover {
+    background-color: #1d1b31;
+    color: #ffffff;
+}
+
+.signature-uploader .remove-icon {
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.25rem;
+    background-color: var(--icon-bg);
+    border-radius: 15%;
+    padding: 0.4rem;
+    box-shadow: 2px 2px 5px var(--shadow-color);
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+
+.signature-uploader .remove-icon:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+.note {
+    font-size: 14px;
+    padding-top: 1rem;
+    font-weight: 300;
+    width: 30%;
+}
